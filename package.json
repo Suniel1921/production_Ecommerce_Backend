@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "fullyfunctional e-commerce webiste using mern stack created by sunil sharma",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "suniel1921"
+  },
+  "keywords": [
+    "ecommerce",
+    "mernstack"
+  ],
+  "author": "sunil sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "braintree": "^3.19.0",
+    "braintree-web-drop-in-react": "^1.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.6.3",
+    "multer": "^1.4.5-lts.1",
+    "slugify": "^1.6.6",
+    "stripe": "^14.5.0"
+  }
+}
