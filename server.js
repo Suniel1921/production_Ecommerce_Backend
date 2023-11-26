@@ -30,6 +30,11 @@ app.use("", categoryRoutes);
 app.use("", productRoutes);
 // app.use(formidable());
 
+
+app.get('/',(req ,res)=>{
+  res.send("Production Ecommerce Backend")
+})
+
 app.listen(PORT, (req, res) => {
   console.log(`Server is running on port no : ${PORT}`);
 });
